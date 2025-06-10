@@ -128,20 +128,34 @@
   margin-top: 3rem;
   }
   
-            .s-1{
-            
-            
+            .s-2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          margin-right: 500px;
+          
            
-            margin-left: 10px;
+        }
+        .input1{
+            width:300px;
+            height:100px;
+           
+          border-style: solid;
+            border-color: black;
+            border-radius:8px;
+            
+            
         }
         .image{
           width:100px;
           height:100px;
         }
         .style-v{
-            display: block;
-           
-            margin-left:0px;
+           display: flex;
+           flex-direction: column;
+           text-align: left;
+            justify-content: flex-start;
+            margin-right: 500px;
             margin-top: 70px;
             
         }
