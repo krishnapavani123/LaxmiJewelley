@@ -120,19 +120,23 @@
   margin-top: 3rem;
 
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:1200px){
   .top-cell{
      display: flex;
   margin: 0px;
-  
+  width:380px;
   margin-top: 3rem;
   }
   
             .s-1{
-            display: flex;
-            flex-direction: column;
+            
+            
            
             margin-left: 10px;
+        }
+        .image{
+          width:100px;
+          height:100px;
         }
         .style-v{
             display: block;
