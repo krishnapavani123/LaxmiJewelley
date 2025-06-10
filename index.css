@@ -120,11 +120,34 @@
   margin-top: 3rem;
 
 }
+@media screen and (max-width:768px){
+  .top-cell{
+     display: flex;
+  margin: 0px;
+  
+  margin-top: 3rem;
+  }
+  
+            .s-1{
+            display: flex;
+            flex-direction: column;
+           
+            margin-left: 10px;
+        }
+        .style-v{
+            display: block;
+           
+            margin-left:0px;
+            margin-top: 70px;
+            
+        }
+}
 .container {
   position: relative;
   
   
 }
+
 
 .image {
   display: block;
