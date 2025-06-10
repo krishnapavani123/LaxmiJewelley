@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .filter-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 14rem;
+    height:300px;
+    width:300px;
+    
+   
+   
+}
+
+select {
+   
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.available{
+    display: flex;
+    flex-direction: column;
+}
+.item1{
+    background-image: url("https://jewelleryjungle.com/cdn/shop/products/IMG_0117.jpg?v=1645040594&width=360");
+    background-size: cover;
+    height:130px;
+    width:130px;
+    border-radius: 10px;
+    
+}
+.items-n{
+text-align: center;
+margin-left: 40px;
+}
+.c-neck{
+    display: flex;
+    
+}
+.n-1{
+    display: flex;
+   
+}
+    </style>
+</head>
+<body>
+    <div class="bg-container">
+                <div class="head">
+              
+<div class="search-container">
+  <span class="search-icon"> <i class="bi bi-search search"></i></span>
+  <div id="popup-search" class="popup-search">
+     <span class="close-icon" id="close-icon">✖</span>
+    <input type="text" placeholder="Search..." style="width: 100%; padding: 5px;">
+  </div>
+</div>
+              <div class="img-c">
+                <img src="https://res.cloudinary.com/duk9ishub/image/upload/v1748967213/Screenshot_2025-06-03_214315_nnqce6.png" alt="Laxmi Jewelleries Logo"  class="img">
+                </div>
+                <div class="logo">
+                <i class="bi bi-person l-2" id="loginBtn"></i>
+                    <i class="bi bi-cart l-1"></i>
+<div id="loginModal" class="modal">
+    <div class="modal-content" style="width:500px;height: 450px;">
+        <span class="closeBtn">&times;</span>
+        <div class="lb">
+          <img src="https://res.cloudinary.com/duk9ishub/image/upload/v1748967557/2ree9l7j_frytnx.png" alt="Laxmi Jewelleries Logo" width="80" class="i">
+        </div>
+           <div style="padding-left: 20px;">
+        <h2 >Login</h2>
+        <p>Enter your email and we'll send you a login code</p>
+        <form>
+            <label for="email"></label>
+            <input type="text" placeholder="Enter your email" class="email-input" id="email">
+            <br/>
+            
+            <button type="submit" class="submit">Continue</button>
+        </form>
+        </div>
+    </div>
+</div>
+            </div>
+            </div>
+            <div class="second-c">
+            <div class="nav-c ">
+             <p style="margin:18px;font-size:25px;">Home</p>
+             <p style="margin:18px;font-size:25px;">Collections</p>
+             <p style="margin:18px;font-size:25px;">Contact</p>
+            </div>
+            </div>
+         
+            <div>
+                <h1 style="margin-left:14rem;">ANKLETS</h1>
+            </div>
+          
+            <div class="c-neck">
+        <div class="filter-section">
+            <p>Filter:</p>
+            
+   <form>
+    <hr/>
+    <p>Availabilty</p>
+    <div class="available">
+        <div>
+            <input type="checkbox" id="option1" name="option1">
+        <label for="option1">In Stock</label>
+        </div>
+        <div>
+             <input type="checkbox" id="option2" name="option2">
+    <label for="option2">Out of Stock</label>
+        </div>
+
+   
+    </div>
+    <hr/>
+</form>
+   
+    <label for="price">Price:</label>
+    <select id="price">
+        <option value="all">All</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+        
+    </select>
+    
+<div>
+    <hr/>
+    <p>Category:</p>
+    <div>
+
+    <input type="checkbox" id="category"/>
+    <label for="category">necklaces</label>
+    </div>
+
+
+      </div>
+    </div>
+    <div>
+    <div class="n-1">
+        <div class="items-n">
+
+           <img src="https://i.pinimg.com/736x/a3/f7/31/a3f7314b652775f32aafa048fc703313.jpg" class="item1"/>
+      <div> 
+        <h1 style="font-size: 20px;color:rgb(91, 88, 88)">Two Of A Kind Anklet</h1>
+      <p>RS 120</p>
+        <button class="btn-1" style="width:100px;">Add to Cart</button></div>
+    </div>
+    <div class="items-n">
+
+           <img src="https://i.pinimg.com/736x/4c/6d/60/4c6d60254c0f6227203def64bf1b0d11.jpg" class="item1"/>
+      <div> 
+        <h1 style="font-size: 20px;color:rgb(91, 88, 88)">Plain Anklets</h1>
+      <p>RS 80</p>
+        <button class="btn-1" style="width:100px;">Add to Cart</button></div>
+    </div>
+    <div class="items-n">
+
+           <img src="https://i.pinimg.com/736x/38/df/c4/38dfc4145f67d0e30c3a6c974004c0b2.jpg" class="item1"/>
+      <div> 
+        <h1 style="font-size: 20px;color:rgb(91, 88, 88)">Star Moon Anklets</h1>
+      <p>RS 160</p>
+        <button class="btn-1" style="width:100px;">Add to Cart</button></div>
+    </div>
+    <div class="items-n">
+
+           <img src="https://i.pinimg.com/736x/45/af/71/45af71928edcf2a8a1afe126a383f5de.jpg" class="item1"/>
+      <div> 
+        <h1 style="font-size: 20px;color:rgb(91, 88, 88)">Infinity Shine</h1>
+      <p>RS 90</p>
+        <button class="btn-1" style="width:100px;">Add to Cart</button></div>
+    </div>
+
+
+    </div>
+     <div class="n-1" style=" margin-top: 20px;">
+        <div class="items-n">
+
+           <img src="https://i.pinimg.com/736x/de/87/82/de8782f4e0d623216dacd458e9c54ff9.jpg" class="item1"/>
+      <div> 
+        <h1 style="font-size: 20px;color:rgb(91, 88, 88)">2pcs Decor Anklets</h1>
+      <p>RS 170</p>
+        <button class="btn-1" style="width:100px;">Add to Cart</button></div>
+    </div>
+    <div class="items-n">
+
+           <img src="https://i.pinimg.com/736x/73/18/e1/7318e1f73b57d69923e1fa1c2a0ffaed.jpg" class="item1"/>
+      <div> 
+        <h1 style="font-size: 20px;color:rgb(91, 88, 88)">Flower&Fux Decors</h1>
+      <p>RS 150</p>
+        <button class="btn-1" style="width:100px;">Add to Cart</button></div>
+    </div>
+    <div class="items-n">
+
+           <img src="https://jewelleryjungle.com/cdn/shop/files/13D0F869-C7C8-493D-9774-BE9013D04B5A.jpg?v=1726597423&width=360" class="item1"/>
+      <div> 
+        <h1 style="font-size: 20px;color:rgb(91, 88, 88)">Ocean Anklet</h1>
+      <p>RS 50</p>
+        <button class="btn-1" style="width:100px;">Add to Cart</button></div>
+    </div>
+    <div class="items-n">
+
+           <img src="https://i.pinimg.com/736x/ed/46/d3/ed46d324629d10f29982b957058ec81b.jpg" class="item1"/>
+      <div> 
+        <h1 style="font-size: 20px;color:rgb(91, 88, 88)">Black Beaded Anklet</h1>
+      <p>RS 150</p>
+        <button class="btn-1" style="width:100px;">Add to Cart</button></div>
+    </div>
+
+
+    </div>
+     <div class="n-1" style=" margin-top: 20px;">
+        <div class="items-n">
+
+           <img src="https://i.pinimg.com/736x/cb/c3/db/cbc3db0fde323ff3ba629586d18dda2a.jpg" class="item1"/>
+      <div> 
+        <h1 style="font-size: 20px;color:rgb(91, 88, 88)">Butterfly Anklet</h1>
+      <p>RS 140</p>
+        <button class="btn-1" style="width:100px;">Add to Cart</button></div>
+    </div>
+    <div class="items-n">
+
+           <img src="https://i.pinimg.com/736x/0d/70/eb/0d70ebdbe8f3d7387cf1c7c24fbe4d7f.jpg" class="item1"/>
+      <div> 
+        <h1 style="font-size: 20px;color:rgb(91, 88, 88)">Sliver Chain Anklets</h1>
+      <p>RS 110</p>
+        <button class="btn-1" style="width:100px;">Add to Cart</button></div>
+    </div>
+    <div class="items-n">
+
+           <img src="https://i.pinimg.com/736x/6c/30/19/6c3019e0711c27ba97225c66db3606c8.jpg" class="item1"/>
+      <div> 
+        <h1 style="font-size: 20px;color:rgb(91, 88, 88)">White Pearl Anklet</h1>
+      <p>RS 99</p>
+        <button class="btn-1" style="width:100px;">Add to Cart</button></div>
+    </div>
+    <div class="items-n">
+
+           <img src="https://jewelleryjungle.com/cdn/shop/products/image_2e6044e5-ba80-41e9-8d49-e8f55fa57fe4.jpg?v=1666360141&width=360" class="item1"/>
+      <div> 
+        <h1 style="font-size: 20px;color:rgb(91, 88, 88)">Evil Eye Anklet</h1>
+      <p>RS 79</p>
+        <button class="btn-1" style="width:100px;">Add to Cart</button></div>
+    </div>
+
+
+    </div>
+    </div>
+     
+            </div>
+      <div class="h-6">
+       <div class="h66">
+        <h1>Subscribe to our emails</h1>
+        <p>Join our email list for exclusive offers and the latest news.</p>
+        <div class="input-container">
+    <input type="email" placeholder="Email">
+    <span class="arrow">&#8594;</span>
+</div>
+       </div>
+       <div class="f-h">
+        
+        <div>
+          <h1>Follow us at</h1>
+          <div>
+          <i class="bi bi-twitter"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-facebook"></i>
+           <i class="bi bi-pinterest"></i>
+          </div>
+        </div>
+        
+       </div>
+       
+      </div>
+            
+            
+         <script src="script.js"></script>
+</body>
+</html>
