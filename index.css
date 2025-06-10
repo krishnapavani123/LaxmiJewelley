@@ -161,19 +161,20 @@
         }
         .h-4{
      background-image: linear-gradient(to right, rgb(255, 245, 245),rgb(195, 163, 255));
-    height:auto;
+    height:40vh;
     width:100vw;
+    
     margin-top: 3rem;
     text-align: center;
     
   }
   .h-5{
-    height:auto;
+    height:20vh;
     width:100vw;
   }
   .h-6{
     height: auto;
-    width:100vw;
+    width:30vw;
   }
 }
 .container {
